@@ -2,6 +2,18 @@
 **InternCircle Project 3 — Data Science & AI**  
 **Author:** Ashish Balodia  
 
+[![Deploy with Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=ashishbalodia1/streamlit--Customer-churn-analysis&branch=main&mainModule=app.py)
+
+---
+
+## 🚀 Live Streamlit Web Dashboard
+
+An interactive dashboard built with Streamlit allowing managers and evaluators to filter monthly sales, explore category breakdowns, inspect customer Pareto curves, and download the 1-page executive brief PDF in real time.
+
+👉 **Direct 1-Click Streamlit Cloud Deployment:**  
+**[Click here to deploy on Streamlit Community Cloud](https://share.streamlit.io/deploy?repository=ashishbalodia1/streamlit--Customer-churn-analysis&branch=main&mainModule=app.py)**  
+*(This link pre-fills the repository, branch, and `app.py`, so you just click **Deploy!**)*
+
 ---
 
 ## About the Project
@@ -66,10 +78,11 @@ The goal of this project is to answer practical business questions that a store 
 
 ## How to Run This Project
 
+### 1. Run the Streamlit Dashboard (Local)
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ashishbalodia1/Customer-Churn-Analysis.git
-   cd Customer-Churn-Analysis
+   git clone https://github.com/ashishbalodia1/streamlit--Customer-churn-analysis.git
+   cd streamlit--Customer-churn-analysis
    ```
 
 2. Install dependencies:
@@ -77,12 +90,12 @@ The goal of this project is to answer practical business questions that a store 
    pip install -r requirements.txt
    ```
 
-3. Launch the Interactive Streamlit Web Dashboard:
+3. Launch the dashboard:
    ```bash
    streamlit run app.py
    ```
 
-4. Or launch the Jupyter Notebook:
-   ```bash
-   jupyter notebook ecommerce_sales_analysis.ipynb
-   ```
+### 2. Run the Jupyter Notebook
+```bash
+jupyter notebook ecommerce_sales_analysis.ipynb
+```
