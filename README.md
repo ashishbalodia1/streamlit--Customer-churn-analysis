@@ -2,17 +2,17 @@
 **InternCircle Project 3 — Data Science & AI**  
 **Author:** Ashish Balodia  
 
-[![Deploy with Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=ashishbalodia1/streamlit--Customer-churn-analysis&branch=main&mainModule=app.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ashishbalodia1-streamlit--customer-churn-analysis-app-o57mmw.streamlit.app/)
 
 ---
 
-## 🚀 Live Streamlit Web Dashboard
+## 🌐 Live Web Application
 
-An interactive dashboard built with Streamlit allowing managers and evaluators to filter monthly sales, explore category breakdowns, inspect customer Pareto curves, and download the 1-page executive brief PDF in real time.
+The interactive analytics dashboard is live and deployed on Streamlit Community Cloud:
 
-👉 **Direct 1-Click Streamlit Cloud Deployment:**  
-**[Click here to deploy on Streamlit Community Cloud](https://share.streamlit.io/deploy?repository=ashishbalodia1/streamlit--Customer-churn-analysis&branch=main&mainModule=app.py)**  
-*(This link pre-fills the repository, branch, and `app.py`, so you just click **Deploy!**)*
+👉 **Live Demo:** **[https://ashishbalodia1-streamlit--customer-churn-analysis-app-o57mmw.streamlit.app/](https://ashishbalodia1-streamlit--customer-churn-analysis-app-o57mmw.streamlit.app/)**
+
+Managers and evaluators can interactively filter monthly sales, explore product category trends, inspect the Pareto 80/20 customer curve, and download the 1-page executive brief PDF in real time without running any code locally.
 
 ---
 
@@ -78,7 +78,11 @@ The goal of this project is to answer practical business questions that a store 
 
 ## How to Run This Project
 
-### 1. Run the Streamlit Dashboard (Local)
+### 1. View Live Online
+Open the live dashboard directly in your browser:  
+👉 **[Streamlit Live App](https://ashishbalodia1-streamlit--customer-churn-analysis-app-o57mmw.streamlit.app/)**
+
+### 2. Run Locally
 1. Clone this repository:
    ```bash
    git clone https://github.com/ashishbalodia1/streamlit--Customer-churn-analysis.git
@@ -95,7 +99,7 @@ The goal of this project is to answer practical business questions that a store 
    streamlit run app.py
    ```
 
-### 2. Run the Jupyter Notebook
+### 3. Run the Jupyter Notebook
 ```bash
 jupyter notebook ecommerce_sales_analysis.ipynb
 ```
